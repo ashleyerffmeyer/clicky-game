@@ -2,6 +2,26 @@
     width: 100%;
     text-align: center;
     font-size: 3rem;
-    color: #2A77AE;
+    color: #3071b7;
     margin-bottom: 50px;
   }
+
+h1{
+font-size: 4rem;
+color: #3071b7;
+font-family: 'Oswald', sans-serif;
+}
+
+h2{
+  font-size: 2rem;
+  color: lightpink;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+}
+
+.text-center{
+  background-image: url(fishnets-and-hearts.png);
+  padding: 0;
+  margin: 0;
+
+}

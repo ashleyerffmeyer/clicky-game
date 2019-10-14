@@ -1,13 +1,15 @@
 import React from "react";
 import "./style.css";
 
-function Title() {
+function Header() {
     return (
         <div>
-            <h1 className="title">Clicky Game!</h1>
-            <h2>Click on an image to earn points, but don't click on any more than once!</h2>
+            <h1 className="header text-center">Sanrio Clicky Game</h1>
+
+            <h2 className="text-center">Click on your favorite Sanrio Character to earn points, but don't click on any more than once!</h2>
+            <h2 className="text-center">Click on any character to begin.</h2>
         </div>
     )
 }
 
-export default Title;
+export default Header;

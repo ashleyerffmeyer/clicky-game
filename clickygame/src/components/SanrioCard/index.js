@@ -3,11 +3,8 @@ import "./style.css";
 
 function SanrioCard(props) {
     return (
-        <div className="card">
-            <div className="img-container">
-                <img alt={props.name} src={props.image} />
-            </div>
-
+        <div>
+            <img src={props.image} alt={props.name} class="img-thumbnail"></img>
         </div>
     );
 }

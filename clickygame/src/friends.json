@@ -1,86 +1,65 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "HelloKitty",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTMvMTQvMTEvNDAvMTQvY2hhcmFjdGVyX2Jhbm5lcl9oZWxsb2tpdHR5LnBuZyJdXQ/character_banner_hellokitty.png?sha=95006e8644727395",
+    "click": false,
+    "value": 1
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "Kerropi",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTUvMjEvMzEvMDQvMjg4L2NoYXJhY3RlcnNfaGVhZGVyX2Jhbm5lcnNfaW1nX2tyLnBuZyJdXQ/characters-header-banners-img-kr.png?sha=55881c100af63b27",
+    "click": false,
+    "value": 2
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "BatzMaru",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTYvMTEvMzkvMTQvMy9jaGFyYWN0ZXJzX2hlYWRlcl9iYW5uZXJzX2ltZ194by5wbmciXV0/characters-header-banners-img-xo.png?sha=057433f7b88c866a",
+    "click": false,
+    "value": 3
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "name": "Aggretsuko",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTgvMTAvMzAvMjEvMzIvMzQvMjYzL2NoYXJhY3RlcnNfaGVhZGVyX2Jhbm5lcnNfaW1nX2FnZy5qcGciXV0/characters-header-banners-img-agg.jpg?sha=b8be75815d72c8c8",
+    "click": false,
+    "value": 4
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "name": "MyMelody",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTUvMjEvMzEvMDUvNTk3L2NoYXJhY3RlcnNfaGVhZGVyX2Jhbm5lcnNfaW1nX21tLnBuZyJdXQ/characters-header-banners-img-mm.png?sha=a04ecd74d46c70e6",
+    "click": false,
+    "value": 5
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "name": "Pochacco",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTUvMjEvMzEvMDUvOS9jaGFyYWN0ZXJzX2hlYWRlcl9iYW5uZXJzX2ltZ19wYy5wbmciXV0/characters-header-banners-img-pc.png?sha=c5d89a2486f6ea88",
+    "click": false,
+    "value": 7
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "name": "Chococat",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTUvMjEvMzEvMDMvNTQyL2NoYXJhY3RlcnNfaGVhZGVyX2Jhbm5lcnNfaW1nX2NvLnBuZyJdXQ/characters-header-banners-img-co.png?sha=000506095b48d8e5",
+    "click": false,
+    "value": 7
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "name": "Gudetama",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTgvMTAvMzAvMTgvNTMvMDEvODMxL2NoYXJhY3RlcnNfaGVhZGVyX2Jhbm5lcnNfaW1nX2d1LmpwZyJdXQ/characters-header-banners-img-gu.jpg?sha=0ed05b8c9654b49c",
+    "click": false,
+    "value": 8
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
-  },
-  {
-    "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
-  },
-  {
-    "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
-  },
-  {
-    "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "name": "LittleTwinStars",
+    "image": "https://www.sanrio.com/media/W1siZiIsIjIwMTYvMDYvMTUvMjEvMzEvMDUvMzQyL2NoYXJhY3RlcnNfaGVhZGVyX2Jhbm5lcnNfaW1nX2x0cy5wbmciXV0/characters-header-banners-img-lts.png?sha=e7042e2e8baed4b9",
+    "click": false,
+    "value": 9
   }
 ]

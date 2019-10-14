@@ -21,21 +21,22 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
-      <Navbar>
-        <Header>
-          <Wrapper>
-            {this.state.friends.map(friend => (
-              <SanrioCard
+      <div>
+        <Navbar />
+        <Header />
+        <Wrapper />
+        {this.state.friends.map(friend => (
+          <SanrioCard
+            key={friend.id}
+            id={friend.id}
+            name={friend.name}
+            image={friend.image}
 
-                id={friend.id}
-                name={friend.name}
-                image={friend.image}
+          />
+        ))}
+      </div>
 
-              />
-            ))}
-          </Wrapper>
-        </Header>
-      </Navbar>
+
     );
   }
 }

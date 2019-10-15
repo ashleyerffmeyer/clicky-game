@@ -11,38 +11,77 @@ class App extends Component {
     friends,
     clickedFriends: [],
     score: 0,
-    highScore: 0
+    topScore: 0,
+    message: "Click on any character to begin."
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+  // When an image is clicked, the sanrio character is taken out of the array
+  imageClick = event => {
+    const currentFriend = event.target.alt;
+    const friendAlreadyClicked =
+      this.state.clickedFriends.indexOf(currentFriend) > -1;
+
+    // If a character that has already been clicked and is clicked again, the game is reset and cards reordered
+    if (friendAlreadyClicked) {
+      this.setState({
+        friends: this.state.friends.sort(function (a, b) {
+          return 0.5 - Math.random();
+        }),
+        clickedFriends: [],
+        score: 0,
+        message: "You already clicked that! Game Over. Do you want to play again?"
+      });
+    }
+    // If an available friend is clicked, the score is increased by 1 and cards are reordered
+    else {
+      this.setState(
+        {
+          friends: this.state.friends.sort(function (a, b) {
+            return 0.5 - Math.random();
+          }),
+          clickedFriends: this.state.clickedFriends.concat(
+            currentFriend
+          ),
+          score: this.state.score + 1
+        },
+        // If all 9 friends are clicked without repetition, a congrats message pops up and the game resets        
+        () => {
+          if (this.state.score === 12) {
+            this.setState({
+              friends: this.state.friends.sort(function (a, b) {
+                return 0.5 - Math.random();
+              }),
+              clickedFriends: [],
+              score: 0,
+              topScore: 0,
+              message: "Congratulations! You Win!"
+            });
+          }
+        }
+      );
+    }
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Render components
+  // Map over this.state.friends and render a SanrioCard component for each friend object
   render() {
     return (
       <div>
         <Navbar score={this.state.score} />
         <Header />
         <Wrapper />
-        {this.state.friends.map(friend => (
+        {this.state.friends.map(friends => (
           <SanrioCard
-            key={friend.id}
-            id={friend.id}
-            name={friend.name}
-            image={friend.image}
-
+            imageClick={this.imageClick}
+            key={friends.id}
+            id={friends.id}
+            name={friends.name}
+            image={friends.image}
           />
         ))}
       </div>
-
-
     );
   }
-}
+};
 
 export default App;
-

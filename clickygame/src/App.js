@@ -29,7 +29,7 @@ class App extends Component {
         }),
         clickedFriends: [],
         score: 0,
-        message: "You already clicked that! Game Over. Do you want to play again?"
+        message: "You already clicked that! Game Over."
       });
     }
     // If an available friend is clicked, the score is increased by 1 and cards are reordered
@@ -42,7 +42,8 @@ class App extends Component {
           clickedFriends: this.state.clickedFriends.concat(
             currentFriend
           ),
-          score: this.state.score + 1
+          score: this.state.score + 1,
+          message: ""
         },
         // If all 9 friends are clicked without repetition, a congrats message pops up and the game resets        
         () => {

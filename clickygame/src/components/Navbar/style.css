@@ -5,14 +5,20 @@
 
 .itemLeft {
   width: 33.3%;
+  font-family: 'Oswald', sans-serif;
 }
 
 .itemCenter {
-	width: 33.3%;
+  width: 33.3%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: lightpink;
+  font-size: 1.25em;
 }
 
 .itemRight {
   width: 33.3%;
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar {

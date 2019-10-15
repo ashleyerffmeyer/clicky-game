@@ -21,7 +21,7 @@ class App extends Component {
     const friendAlreadyClicked =
       this.state.clickedFriends.indexOf(currentFriend) > -1;
 
-    // If a character that has already been clicked and is clicked again, the game is reset and cards reordered
+    // If a character that has already been clicked and is clicked again, the game is reset and cards are reordered
     if (friendAlreadyClicked) {
       this.setState({
         friends: this.state.friends.sort(function (a, b) {
@@ -43,11 +43,13 @@ class App extends Component {
             currentFriend
           ),
           score: this.state.score + 1,
+          topScore: this.state.score,
           message: ""
         },
+
         // If all 9 friends are clicked without repetition, a congrats message pops up and the game resets        
         () => {
-          if (this.state.score === 12) {
+          if (this.state.score === 9) {
             this.setState({
               friends: this.state.friends.sort(function (a, b) {
                 return 0.5 - Math.random();

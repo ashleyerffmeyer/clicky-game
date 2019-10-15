@@ -67,7 +67,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar score={this.state.score} />
+        <Navbar score={this.state.score} topScore={this.state.topScore} message={this.state.message} />
         <Header />
         <Wrapper />
         {this.state.friends.map(friends => (

@@ -29,10 +29,12 @@ class App extends Component {
         }),
         clickedFriends: [],
         score: 0,
+        topScore: 0,
         message: "You already clicked that! Game Over."
       });
     }
-    // If an available friend is clicked, the score is increased by 1 and cards are reordered
+
+    // If an available friend is clicked, the score and top score is increased by 1 and cards are reordered
     else {
       this.setState(
         {

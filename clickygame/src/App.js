@@ -6,9 +6,12 @@ import SanrioCard from "./components/SanrioCard";
 import friends from "./friends.json";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.friends to the friends json array and state to 0 or empty
   state = {
-    friends
+    friends,
+    clickedFriends: [],
+    score: 0,
+    highScore: 0
   };
 
   removeFriend = id => {
@@ -22,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar score={this.state.score} />
         <Header />
         <Wrapper />
         {this.state.friends.map(friend => (

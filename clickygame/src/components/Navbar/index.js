@@ -3,10 +3,12 @@ import "./style.css";
 
 function Navbar(props) {
     return (
-        <nav className="navbar">
-            <a className="navbar-brand" href="/">Clicky Game</a>
+
+        <nav className="navbar navbar-default navbar-fixed-top">
             <ul>
-                <li className="itemRight">Score: 0 | Top Score: 0</li>
+                <li className="itemLeft" href="/">Sanrio Clicky Game</li>
+                <li className="itemCenter"></li>
+                <li className="itemRight">Score: {this.props.score} | Top Score: 0</li>
             </ul>
         </nav>
     );

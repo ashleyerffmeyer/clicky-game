@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import SanrioCard from "./components/SanrioCard";
 import friends from "./friends.json";
 
@@ -85,6 +86,7 @@ class App extends Component {
             />
           ))}
         </ Wrapper>
+        <Footer />
       </div>
     );
   }

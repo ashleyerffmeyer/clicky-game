@@ -74,16 +74,17 @@ class App extends Component {
       <div>
         <Navbar score={this.state.score} topScore={this.state.topScore} message={this.state.message} />
         <Header />
-        <Wrapper />
-        {this.state.friends.map(friends => (
-          <SanrioCard
-            imageClick={this.imageClick}
-            key={friends.id}
-            id={friends.id}
-            name={friends.name}
-            image={friends.image}
-          />
-        ))}
+        <Wrapper>
+          {this.state.friends.map(friends => (
+            <SanrioCard
+              imageClick={this.imageClick}
+              key={friends.id}
+              id={friends.id}
+              name={friends.name}
+              image={friends.image}
+            />
+          ))}
+        </ Wrapper>
       </div>
     );
   }

@@ -8,3 +8,8 @@
     background: lightpink;
     border-radius: 2px;
   }
+
+.img-thumbnail:hover{
+  background-color: #3071b7;
+  cursor: pointer;
+}

@@ -1,6 +1,6 @@
 # Sanrio Clicky Memory Game
 
-[Link to Site!](https://sanrio-clicky-game.herokuapp.com) 
+[Link to Heroku Site!](https://sanrio-clicky-game.herokuapp.com) 
 
 ## Authors
 Ashley Erffmeyer, with major support from KU's Coding Boot Camp staff members:
@@ -9,11 +9,14 @@ Ashley Erffmeyer, with major support from KU's Coding Boot Camp staff members:
 * Seth Willis (TA)
 
 ## Tools Used
-* JavaScript
 * ReactJS
+* JavaScript
+* CSS
+* ES6
+* JSX
 
 ## Prerequisites & Installations
-In order to run this command line node app, first install node.js and npm. To install the app, clone this repository and use 'npm install' to gather dependencies specified in the package.json file (Express, Express-Handlebars Mongoose, Cheerio, Axios)
+In order to run this command line node app, first install node.js and npm. To install the app, clone this repository and use 'npm install' to gather dependencies specified in the package.json file (react, react-dom, react-scripts).
 
 ## Application Overview
 This web application is a memory game powered by React. The UI is broken up into components; the app manages component state and responds to user events.
